@@ -5,7 +5,7 @@ author: Glen
 desc: Laudantium iste repellat et. Et officiis corporis. At est placeat voluptas aut. Soluta dolor quae quae tempora. Voluptatibus quibusdam natus. Facilis ea repellendus expedita voluptatum rerum autem.
 img: https://images.unsplash.com/photo-1698700654109-825adf37f6c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5ODcyNDUwNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080
 imgWidth: 800
-imgHeight: 500
+imgHeight: 384
 ---
 
 Molestias laudantium dolorem impedit quam eaque suscipit voluptatem vel. Sit et sit autem quae dicta repellat magnam. Iste corporis nihil enim nobis. Ea omnis qui illo ratione. Et eius est mollitia.
