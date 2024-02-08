@@ -11,6 +11,18 @@ import Social from './Social.astro';
   </style>
 
 <footer>
+    <div>
+        <p class="text-xs text-base-content/70">
+          &copy; {(new Date()).getFullYear()} – 
+          <a class="link" href="https://github.com/saadeghi/daisy-blog" target="_blank">
+            KekePiksa
+          </a>
+          Theme, Powered by
+          <a class="link" href="https://dzagoo.com/" target="_blank">
+            Dzagoo
+          </a>
+        </p>
+      </div>
   <!-- <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p> -->
   <Social platform="twitter" username="astrodotbuild" />
   <Social platform="github" username="withastro" />

@@ -1,0 +1,35 @@
+---
+// import "../../style/global.css"
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import ThemeChange from "../components/ThemeChange.astro";
+import Head from '../components/Header.astro'
+const {title} = Astro.props;
+const {desc} = Astro.props;
+const {img} = Astro.props;
+---
+<html lang="en">
+<Head
+	title={title}
+	desc={desc}
+	img={img}
+>
+	<script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</Head>
+<body class="flex flex-col items-center h-screen h-[100svh]">
+	<div class="w-full max-w-3xl flex-grow">
+		<Navigation>
+			<ThemeChange />
+		</Navigation>
+		<div class="p-4 pb-10">
+			<div class="prose lg:prose-lg">
+				<slot />
+			</div>
+		</div>
+	</div>
+	<Footer />
+</body>
+</html>

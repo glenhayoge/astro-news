@@ -1,31 +1,19 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-const pageTitle = "My Astro Learning Blog";
+  import Page from "@layouts/page";
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-	</head>
-<body>
-	<Header />
-    <h1>{pageTitle}</h1>
-    <h1>My Astro Learning Blog</h1>
-    <p>This is where I will post about my journey learning Astro.</p>
-    <ul>
+  
+<Page title="Blogs">
+      <h1>Blogs</h1>
+      <p>
+      Molestias laudantium dolorem impedit quam eaque suscipit voluptatem vel. Sit et sit autem quae dicta repellat magnam. Iste corporis nihil enim nobis. Ea omnis qui illo ratione. Et eius est mollitia.
+      Id dicta cumque saepe enim reprehenderit quidem quis mollitia sit. Aspernatur quia doloribus ipsa. Soluta quis necessitatibus eaque dolorem sunt voluptates neque. Sit cumque dolor distinctio. Fugiat nostrum consequatur.
+      Cum vitae explicabo aspernatur rerum. Tenetur possimus quos eveniet. Repellat eveniet repellat maiores magnam voluptas dolor. Mollitia possimus laborum unde eius sunt. Repellat eos possimus nulla cum accusamus numquam labore dolore.
+      Molestias laudantium dolorem impedit quam eaque suscipit voluptatem vel. Sit et sit autem quae dicta repellat magnam. Iste corporis nihil enim nobis. Ea omnis qui illo ratione. Et eius est mollitia.
+      </p>
+      <ul>
         <li><a href="/posts/post-1/">Post 1</a></li>
         <li><a href="/posts/post-2/">Post 2</a></li>
         <li><a href="/posts/post-3/">Post 3</a></li>
       </ul>
-      <Footer />
-      <script>
-        import "../scripts/menu.js";
-      </script>
-  </body>
-
-  </html>
+</Page>
+  

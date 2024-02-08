@@ -1,3 +1,8 @@
+/* The integration's default injected base.css file */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     background-color: #f1f5f9;
     font-family: sans-serif;
