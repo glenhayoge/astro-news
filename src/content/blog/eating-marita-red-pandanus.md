@@ -1,10 +1,10 @@
 ---
-title: Top 10 furniture design trends for 2022
-date: 2022-04-08
-author: Pouya
+title: Eating Marita-Red Pandanus
+date: 2024-02-7
+author: Glen
 desc: Laudantium iste repellat et. Et officiis corporis. At est placeat voluptas aut. Soluta dolor quae quae tempora. Voluptatibus quibusdam natus. Facilis ea repellendus expedita voluptatum rerum autem.
-img: https://api.lorem.space/image/furniture?w=500&h=500
-imgWidth: 500
+img: https://images.unsplash.com/photo-1698700654110-1cc8773da986?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY5OTQyNTUyOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080
+imgWidth: 800
 imgHeight: 500
 ---
 
