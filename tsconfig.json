@@ -11,7 +11,7 @@
 				"src/components/*.astro"
 			],
 			"@layouts/*": [
-				"src/layouts/*.astro"
+				"src/components/layouts/*.astro"
 			],
 			"@data/*": [
 				"src/data/*.ts"

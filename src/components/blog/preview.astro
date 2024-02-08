@@ -1,10 +1,6 @@
 ---
 import type { Post } from '@data/post';
 const post: Post = Astro.props.post
-interface Post {
-    // other properties
-    img: string | URL;
-}
 ---
 
 <div class="py-6 flex flex-row-reverse gap-6 md:gap-10 items-start">
