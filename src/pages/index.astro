@@ -8,20 +8,22 @@ const posts = published( markdownFiles );
 ---
 
 <Blog>
-	<div class="hero min-h-96" style="background-image: url(https://ascensionmag.com/wp-content/uploads/2016/10/Image-2.jpg);">
+	<div class="hero min-h-96 " style="background-image: url(https://ascensionmag.com/wp-content/uploads/2016/10/Image-2.jpg);">
 		<div class="hero-overlay bg-opacity-50"></div>
 		<div class="hero-content text-center text-neutral-content">
 		  <div class="max-w-md">
 			<h1 class="mb-5 text-5xl font-bold">Explore</h1>
 			<p class="mb-5 text-lime-200">A community driven platform for sharing the rich and unique culinary heritage and practices in Papua New Guinea and the Pacific Islands. No ads, just food</p>
-			<button class="btn btn-green bg-lime-200">All Recipes</button>
+			<button class="btn btn-green text-gray-600 bg-lime-200">View Recipes</button>
 		  </div>
 		</div>
 	  </div>
 	  <caption >
 		<p class="text-xs pt-2 text-gray-500">Bilum, Photography by Ranu James</p>
 	  </caption>
-	 
-		{posts.map((p) => <Preview post={p} />)}
+	
 	</div>
+	
+	{posts.map((p) => <Preview post={p} />)}	
 </Blog>
+
