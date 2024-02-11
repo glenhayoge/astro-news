@@ -18,7 +18,7 @@ export default {
 	  },
 	  daisyui: {
 		themes: [
-		  'forest',
+		  'business',
 		  'winter',
 		]
 	  }
