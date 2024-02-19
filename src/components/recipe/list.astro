@@ -1,0 +1,13 @@
+---
+import type { Recipe } from '@data/recipe';
+const recipe: Recipe = Astro.props.recipe
+---
+
+<div class="flex items-start">
+    <div class="flex flex-col border-b border-dashed border-base-300 pl-4">
+        <h2 class="text-sm lg:text-lg font-bold">
+            <a class="hover:underline" href={`/${recipe.slug}`}>{recipe.title}</a>
+        </h2>
+        <p class="text-sm text-base-content/70">{recipe.desc}</p>
+    </div>
+</div>
