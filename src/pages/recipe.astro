@@ -8,8 +8,11 @@
   
 <Page title="Recipe">
       <h3>Recipes</h3>
-
-       {recipe.map((p) => <Preview recipe={p} />)}	
+      <div class="grid grid-rows-4 grid-flow-col gap-4">
+       {recipe.map((p) => 
+       <Preview recipe={p} />
+       )}	
+      </div>
 
    
 </Page>
