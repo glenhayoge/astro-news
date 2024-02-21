@@ -12,10 +12,10 @@ const recipe: Recipe = Astro.props.recipe
     </div>
 </div> -->
 
-<div class="card w-96 bg-base-100 shadow-xl">
-    <figure >
+<div class="card w-96 bg-base-300 shadow-xl">
+    <figure class="p-0">
         {recipe.img && (
-            <a href={`/${recipe.slug}`} class="">
+            <a href={`/${recipe.slug}`} class="shrink-1">
               <img
                 src={recipe.img.toString()}
                 alt={recipe.title} // Using alt from Post interfac
@@ -24,11 +24,12 @@ const recipe: Recipe = Astro.props.recipe
           )}
         <!-- <img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /> -->
     </figure>
-    <div class="card-body py-0">
-      <h2 class="card-title py-0 my-0 ">{recipe.title}</h2>
+    <div class="card-body">
+      <h2 class="card-title">{recipe.title}</h2>
       <!-- <a href={`/${recipe.slug}`}>{recipe.desc}</a> -->
       <!-- <div class="card-actions justify-end">
         <button class="btn btn-primary">Buy Now</button>
       </div> -->
     </div>
   </div>
+ 
