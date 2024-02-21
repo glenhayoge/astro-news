@@ -1,0 +1,16 @@
+---
+  import Page from "@layouts/page";
+  import Preview from "@components/recipe/list";
+  import { published } from "@data/recipe";
+  const markdownFiles = await Astro.glob('../content/recipe/*.md')
+  const recipe = published( markdownFiles );
+---
+  
+<Page title="Recipe">
+      <h3>Recipes</h3>
+
+       {recipe.map((p) => <Preview recipe={p} />)}	
+
+   
+</Page>
+  

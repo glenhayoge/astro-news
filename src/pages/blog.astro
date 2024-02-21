@@ -2,7 +2,7 @@
   import Page from "@layouts/page";
   import Preview from "@components/blog/list";
   import { published } from "@data/post";
-  const markdownFiles = await Astro.glob('../content/**/*.md')
+  const markdownFiles = await Astro.glob('../content/blog/**/*.md')
   const posts = published( markdownFiles );
 ---
   
