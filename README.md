@@ -10,7 +10,7 @@ Link to the Live Website 🫱🏽 [foodbilum](https://glensea.com)
 
 ## 🚀 Development Tools
 
-What this site was built with:
+What this site is built with:
 
 - Astro
 - Tailwind CSS
